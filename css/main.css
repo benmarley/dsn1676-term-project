@@ -23,10 +23,20 @@ body {
 
 .banner {
   width: 100%;
-  height: 20em;
   text-align: center;
+  background-color: #CCCCCC;
+  background-image: url("../images/waves.svg")
+  background-repeat: none;
+
 }
 
 .logo {
   width: 20%;
+}
+
+.title {
+  margin: 0;
+}
+.subheader {
+  padding-bottom: 2em;
 }
