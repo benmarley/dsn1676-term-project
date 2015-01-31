@@ -31,7 +31,8 @@ body {
   background-position: center 10em;
 
   background-size:210%;
-  animation: waves 1s linear infinite alternate; 
+  animation: waves 10s linear infinite alternate; 
+
 
 
 }
@@ -65,17 +66,56 @@ body {
   top: 4.5em;
   right: 3em;
   width: 20%;
-  animation: boat-move 3s infinite linear;
+  animation: boat-move 3s infinite ease-in;
+
+
 
 }
 
+@keyframes waves {
+  0% {
+    transform: translateX(0px) 
+  }
+  10%{
+    transform: translateX(-20px) 
+  }
+  20%{
+    transform: translateX(0px) 
+  }
+  30% {
+    transform: translateX(-20px)
+  }
+  40% {
+    transform: translateX(-20px)
+  }
+  50% {
+    transform: translateX(0px) 
+  }
+  60% {
+    transform: translateX(-20px) 
+  }
+  70% {
+    transform: translateX(0px) 
+  }
+  80% {
+    transform: translateX(-20px) 
+  }
+  90% {
+    transform: translateX(0px) 
+  }
+  100% {
+    transform: translateX(-20px)
+  }
+}
 
-
-
-
-
-
-
+@keyframes sink {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
 
 
 @keyframes boat-move {
@@ -87,6 +127,6 @@ body {
     transform: rotate(10deg);
   }
   100% {
-    tranform: rotate(-50deg);;
+    tranform: rotate(-50deg);
   }
 }
