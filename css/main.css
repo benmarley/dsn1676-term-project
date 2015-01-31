@@ -52,9 +52,6 @@ body {
   position: relative;
 }
 
-.waves:hover {
-}
-
 .title {
   margin: 0;
   position: relative;
@@ -65,7 +62,7 @@ body {
 }
 .boat {
   position: absolute;
-  top: 3em;
+  top: 4.3em;
   right: 3em;
   width: 20%;
   animation: boat-move 3s infinite ease-in alternate;
@@ -134,5 +131,17 @@ body {
   }
   100% {
     tranform: rotate(0deg);
+  }
+}
+
+@media only screen and (min-width: 25em) {
+  .boat {
+    top: 4em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .boat {
+    top: 3em;
   }
 }
