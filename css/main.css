@@ -25,16 +25,18 @@ body {
   width: 120%;
   background-image: url("../images/waves-graphic.svg");
   background-repeat: no-repeat;
-  height: 40em;
+  height: 100vh;
   position: absolute;
   top: -5em;
   background-position: center 10em;
 
   background-size:210%;
   animation: waves 10s linear infinite alternate; 
+}
 
-
-
+.waves:hover {
+  background-position: center -30em;
+  transition: all 4000ms linear;
 }
 
 .banner {
@@ -43,14 +45,14 @@ body {
   position: absolute;
   top: -.5em;
   overflow: hidden;
-
-
-
 }
 
 .logo {
   width: 20%;
   position: relative;
+}
+
+.waves:hover {
 }
 
 .title {
@@ -63,10 +65,11 @@ body {
 }
 .boat {
   position: absolute;
-  top: 4.5em;
+  top: 3em;
   right: 3em;
   width: 20%;
-  animation: boat-move 3s infinite ease-in;
+  animation: boat-move 3s infinite ease-in alternate;
+  transform-origin: center;
 
 
 
@@ -77,34 +80,34 @@ body {
     transform: translateX(0px) 
   }
   10%{
-    transform: translateX(-20px) 
+    transform: translateX(-40px) 
   }
   20%{
     transform: translateX(0px) 
   }
   30% {
-    transform: translateX(-20px)
+    transform: translateX(-40px)
   }
   40% {
-    transform: translateX(-20px)
+    transform: translateX(0px)
   }
   50% {
-    transform: translateX(0px) 
+    transform: translateX(-40px) 
   }
   60% {
-    transform: translateX(-20px) 
+    transform: translateX(0px) 
   }
   70% {
-    transform: translateX(0px) 
+    transform: translateX(-40px) 
   }
   80% {
-    transform: translateX(-20px) 
-  }
-  90% {
     transform: translateX(0px) 
   }
+  90% {
+    transform: translateX(-40px) 
+  }
   100% {
-    transform: translateX(-20px)
+    transform: translateX(0px)
   }
 }
 
@@ -123,10 +126,13 @@ body {
     transform: rotate(0deg);
   }
 
-  50% {
+  33% {
     transform: rotate(10deg);
   }
+  66% {
+    transform: rotate(-10deg);
+  }
   100% {
-    tranform: rotate(-50deg);
+    tranform: rotate(0deg);
   }
 }
