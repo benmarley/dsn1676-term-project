@@ -21,11 +21,27 @@ body {
 	padding: 0;
 }
 
+.waves {
+  width: 120%;
+  background-image: url("../images/waves-graphic.svg");
+  background-repeat: no-repeat;
+  height: 40em;
+  position: absolute;
+  top: -5em;
+  background-position: center 10em;
+
+  background-size:210%;
+  animation: waves 1s linear infinite alternate; 
+
+
+}
+
 .banner {
   width: 100%;
   text-align: center;
   position: absolute;
   top: -.5em;
+  overflow: hidden;
 
 
 
@@ -33,47 +49,34 @@ body {
 
 .logo {
   width: 20%;
+  position: relative;
 }
 
 .title {
   margin: 0;
+  position: relative;
 }
 .subheader {
   padding-bottom: 2em;
+  position: relative;
 }
 .boat {
   position: absolute;
-  top: 8em;
-  right: -1em;
-  width: 30%;
+  top: 4.5em;
+  right: 3em;
+  width: 20%;
   animation: boat-move 3s infinite linear;
 
 }
 
-.waves {
-  width: 120%;
-  background-image: url("../images/waves-graphic.svg");
-  background-repeat: no-repeat;
-  height: 25em;
-  position: relative;
-  background-position: center 10em;
 
-  background-size:210%;
-  animation: waves 1s linear infinite alternate; 
-  overflow: visible;
 
-}
 
-@keyframes waves {
 
-  0% {
-    transform: translateX(0px);
-  }
 
-  100% {
-    transform: translateX(-20px);
-  }
-}
+
+
+
 
 @keyframes boat-move {
   0% {
@@ -81,9 +84,9 @@ body {
   }
 
   50% {
-    transform: rotate(-40deg);
+    transform: rotate(10deg);
   }
   100% {
-    tranform: rotate(100deg);;
+    tranform: rotate(-50deg);;
   }
 }
