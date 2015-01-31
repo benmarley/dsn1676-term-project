@@ -24,9 +24,10 @@ body {
 .banner {
   width: 100%;
   text-align: center;
-  background-color: #CCCCCC;
-  background-image: url("../images/waves.svg")
-  background-repeat: none;
+  position: absolute;
+  top: -.5em;
+
+
 
 }
 
@@ -39,4 +40,50 @@ body {
 }
 .subheader {
   padding-bottom: 2em;
+}
+.boat {
+  position: absolute;
+  top: 8em;
+  right: -1em;
+  width: 30%;
+  animation: boat-move 3s infinite linear;
+
+}
+
+.waves {
+  width: 120%;
+  background-image: url("../images/waves-graphic.svg");
+  background-repeat: no-repeat;
+  height: 25em;
+  position: relative;
+  background-position: center 10em;
+
+  background-size:210%;
+  animation: waves 1s linear infinite alternate; 
+  overflow: visible;
+
+}
+
+@keyframes waves {
+
+  0% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes boat-move {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-40deg);
+  }
+  100% {
+    tranform: rotate(100deg);;
+  }
 }
