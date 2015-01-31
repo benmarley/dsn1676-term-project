@@ -23,7 +23,7 @@ body {
 
 .waves {
   width: 120%;
-  background-image: url("../images/waves-graphic.svg");
+  background-image: url("../images/waves-graphic-bottom.svg");
   background-repeat: no-repeat;
   height: 100vh;
   position: absolute;
@@ -35,8 +35,8 @@ body {
 }
 
 .waves:hover {
-  background-position: center -30em;
-  transition: all 4000ms linear;
+  background-position: center -40em;
+  transition: all 3000ms linear;
 }
 
 .banner {
