@@ -215,7 +215,7 @@ body {
   }
 
   .waves:hover {
-  background-position: center -16em;
+  background-position: center -20em;
   -webkit-transition: all 3000ms linear;
   transition: all 3000ms linear;
 }
