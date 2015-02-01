@@ -35,7 +35,7 @@ body {
 }
 
 .waves:hover {
-  background-position: center -40em;
+  background-position: center -.5em;
   transition: all 3000ms linear;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 .boat {
   position: absolute;
-  top: 4.3em;
+  top: 5em;
   right: 3em;
   width: 20%;
   animation: boat-move 3s infinite ease-in alternate;
@@ -136,12 +136,49 @@ body {
 
 @media only screen and (min-width: 25em) {
   .boat {
-    top: 4em;
+    top: 5.5em;
   }
+
+    .waves:hover {
+  background-position: center -10em;
+  transition: all 3000ms linear;
+}
 }
 
 @media only screen and (min-width: 38em) {
   .boat {
-    top: 3em;
+    top: 5.5em;
   }
+
+  .waves:hover {
+  background-position: center -16em;
+  transition: all 3000ms linear;
 }
+}
+
+@media only screen and (min-width: 60em) {
+    .boat {
+    top: 6em;
+  }
+
+  .waves {
+      height: 110vh;
+  }
+
+    .waves:hover {
+  background-position: center -39em;
+  transition: all 3000ms linear;
+}
+
+ 
+}
+
+@media only screen and (min-width: 90em) {
+
+      .waves:hover {
+  background-position: center -52em;
+  transition: all 3000ms linear;
+}
+
+
+  }
