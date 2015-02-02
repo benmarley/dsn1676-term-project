@@ -62,6 +62,21 @@ body {
   padding-bottom: 2em;
   position: relative;
 }
+
+.nav-button {
+  position: absolute;
+  top:1em;
+  left: 5%;
+  height: 3em;
+  width: 3em;
+  background: url("../images/toggle-graphic.svg") no-repeat;
+}
+
+.nav-button:hover {
+  background-color: #006699;
+  transition: all 6000ms linear;
+}
+
 .boat {
   position: absolute;
   top: 6em;
@@ -71,9 +86,6 @@ body {
   animation: boat-move 3s infinite ease-in alternate;
   -webkit-transform-origin: center;
   transform-origin: center;
-
-
-
 }
 @-webkit-keyframes waves {
   0% {
