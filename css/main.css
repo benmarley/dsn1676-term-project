@@ -59,8 +59,15 @@ body {
   position: relative;
 }
 .subheader {
-  padding-bottom: 2em;
+  padding-bottom: .5em;
   position: relative;
+  margin-bottom: .5em; 
+}
+
+.anchor-arrow {
+  text-align: center;
+  position: relative;
+  width: 10%;
 }
 
 .nav-button {
