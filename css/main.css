@@ -30,7 +30,7 @@ body {
   top: -5em;
   background-position: center 10em;
 
-  background-size:210%;
+  background-size: 210%;
   -webkit-animation: waves 10s linear infinite alternate;
   animation: waves 10s linear infinite alternate; 
 }
