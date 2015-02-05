@@ -72,6 +72,11 @@ body {
   padding-bottom: 1.5em;
 }
 
+.anchor-arrow:hover {
+  transform: rotate(360deg);
+  transition: all 500ms ease-in-out;
+}
+
 .nav-button {
   position: absolute;
   top:  1em;
@@ -272,7 +277,7 @@ body {
     background-position: center -34em;
     -webkit-transition: all 3000ms linear;
     transition: all 3000ms linear;
-}
+  }
 
   .anchor-arrow {
     width: 8%;
