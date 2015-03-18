@@ -81,9 +81,23 @@ body {
   bottom: 350px;
 }
 
+.anchor-drop {
+  animation: dropanchor 6s linear;
+
+}
+
 @keyframes dropanchor {
 0% {
-
+  transform: translateY(0px);
+}
+50% {
+  transform: translateY(500px);
+}
+75% {
+  transform: translateY(480px);
+}
+100% {
+  transform: translateY(500px);
 }
 
 }
@@ -336,7 +350,7 @@ body {
     transition: all 3000ms linear;
 }
   .anchor-prop {
-    bottom: 500px;
+    bottom: 600px;
     width: 45%;
   }
 }
@@ -353,7 +367,7 @@ body {
 }
 
   .anchor-prop {
-    bottom: 400px;
+    bottom: 700px;
     width: 60%;
   }
 
@@ -377,7 +391,7 @@ body {
 }
 
 .anchor-prop {
-  bottom: 580px;
+  bottom: 640px;
   width: 70%;
 }
 
@@ -410,7 +424,7 @@ body {
 }
 
 .anchor-prop {
-  bottom: 800px;
+  bottom: 900px;
 }
 
 @media only screen and (min-width: 130em) {
