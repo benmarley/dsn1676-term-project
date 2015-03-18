@@ -34,7 +34,6 @@ body {
   position: absolute;
   top: -.5em;
   overflow: hidden;
-
 }
 
 .logo {
@@ -77,7 +76,12 @@ body {
   height: 3em;
   width: 3em;
   background: url("../images/toggle-graphic.svg") no-repeat;
+  transition: all 900ms linear;
  }
+
+ .toggleshow{
+  display: block;
+ } 
 
 .nav-button:hover {
   background-color: #0099CC;
@@ -92,29 +96,45 @@ body {
 }
 .x-button {
   height: 4em;
-  width: 3em;
-  background-image: url("../images/ximage.svg") repeat;
-  background-size: 1em 1em;
-
+  width:5em;
+  position: absolute;
+  background-image: url("../images/ximage.svg");
+  background-repeat: no-repeat;
+  background-size: 1em;
+  background-position: center;
+  z-index: 1;
 }
 .navigation {
   position: relative;  
   z-index: 1;
-  display: none;
+  /*display: none;*/
+ opacity:0;
+height: 0;
   background-color: #3399CC;
-}
-.navigation li {
-  list-style-type: none;
-  font-size: 120%;
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
 
 }
 .navigation-open {
   display: block;
+  opacity:1;
+  height: 7em;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
   
 }
 
 .nav-none {
   display:none;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+
+.list-item {
+  list-style-type: none;
+  font-size: 180%;
+  text-decoration: none;
+  color
 }
 
 .boat {
