@@ -82,7 +82,7 @@ body {
 }
 
 .anchor-drop {
-  animation: dropanchor 6s linear;
+  animation: dropanchor 1s alternate forwards;
 
 }
 
@@ -90,17 +90,13 @@ body {
 0% {
   transform: translateY(0px);
 }
-50% {
-  transform: translateY(500px);
-}
-75% {
-  transform: translateY(480px);
-}
+
 100% {
   transform: translateY(500px);
 }
 
 }
+
 
 .nav-button {
   z-index: 1;
