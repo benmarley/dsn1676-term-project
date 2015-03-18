@@ -23,8 +23,7 @@ $xButton.on('click', function () {
 });
 
 $anchorButton.on('click', function () {
-	$anchor.toggleClass('anchor-drop')
-
+	$anchor.toggleClass('anchor-drop');
 });
 
 

@@ -78,25 +78,14 @@ body {
 .anchor-prop {
   width: 40%;
   position: relative;
-  bottom: 350px;
+  bottom: 700px;
+  transform: translateY(0px);
+  transition: all ease-out 1s;
 }
 
 .anchor-drop {
-  animation: dropanchor 1s alternate forwards;
-
-}
-
-@keyframes dropanchor {
-0% {
-  transform: translateY(0px);
-}
-
-100% {
   transform: translateY(500px);
 }
-
-}
-
 
 .nav-button {
   z-index: 1;
@@ -146,7 +135,7 @@ body {
 
 }
 .navigation-open {
-  display: block;
+
   opacity:1;
   height: 7em;
   -webkit-transition: all 400ms linear;
@@ -346,9 +335,12 @@ body {
     transition: all 3000ms linear;
 }
   .anchor-prop {
-    bottom: 600px;
-    width: 45%;
+    bottom: 850px;
+    width: 30%;
   }
+    .anchor-drop {
+  transform: translateY(800px);
+}
 }
 
 @media only screen and (min-width: 38em) {
@@ -363,9 +355,13 @@ body {
 }
 
   .anchor-prop {
-    bottom: 700px;
+    bottom: 900px;
     width: 60%;
   }
+
+  .anchor-drop {
+  transform: translateY(850px);
+}
 
 @media only screen and (min-width: 60em) {
   .boat {
@@ -386,8 +382,12 @@ body {
     width: 8%;
 }
 
+.anchor-drop {
+  transform: translateY(1000px);
+}
+
 .anchor-prop {
-  bottom: 640px;
+  bottom: 1299px;
   width: 70%;
 }
 
@@ -403,8 +403,14 @@ body {
     transition: all 3000ms linear;
 }
 
+.anchor-drop {
+  transform: translateY(600px);
+}
+
+
 .anchor-prop {
-  bottom: 700px;
+  bottom: 1200px;
+  width: 50%;
 }
 
 @media only screen and (min-width: 90em) {
@@ -420,7 +426,12 @@ body {
 }
 
 .anchor-prop {
-  bottom: 900px;
+  bottom: 1400px;
+  width: 40%;
+}
+
+.anchor-drop {
+  transform: translateY(900px);
 }
 
 @media only screen and (min-width: 130em) {
