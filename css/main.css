@@ -158,18 +158,40 @@ body {
 
 .container {
   position: relative;
+  top: 60px;
+  padding-bottom: 5em;
 }
-.scope {
-  height: 100px;
-  width: 70px;
-  background-image: url("../images/submarine-scope.svg");
+
+.sub-container {
+  position: relative; 
+  background-image: url("../images/submarine.svg"); 
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 300px;
-  background-position: -17px 0px;
-  position: absolute;
-  transform:;
+  z-index: 1000;
 
 }
+
+.scope {
+  height: 140px;
+  width: 70px;
+  position: relative;
+  right: 20px;
+  top: 5px;
+  z-index: 3000;
+  transition: all 300ms linear;
+}
+
+.scope-up {
+  transform: translateY(-70px);
+}
+
+
+/*.sub {
+  position: relative;
+  top: 10px;
+  z-index: 1;
+}*/
+
 .wheel-graphic {
   transform: scale(0,0) rotate(0deg);
   transition: all 600ms linear;
@@ -384,6 +406,12 @@ body {
     .anchor-drop {
   transform: translateY(800px);
 }
+
+
+.scope {
+  height: 140px;
+  width: 70px;
+}
 }
 
 @media only screen and (min-width: 38em) {
@@ -408,6 +436,11 @@ body {
 
 .list-item {
 font-size: 110%;
+}
+.scope {
+  height: 140px;
+  width: 70px;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -441,6 +474,11 @@ font-size: 110%;
 .list-item {
 font-size: 120%;
 }
+.scope {
+  height: 140px;
+  width: 70px;
+}
+}
 @media only screen and (min-width: 80em) {
 
   .boat {
@@ -465,6 +503,12 @@ font-size: 120%;
 
 .list-item {
 font-size: 130%;
+}
+
+.scope {
+  height: 140px;
+  width: 70px;
+}
 }
 
 @media only screen and (min-width: 90em) {

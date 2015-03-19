@@ -9,6 +9,9 @@ var $anchorButton = $('.anchor-button');
 var $exploreButton = $('.explore-button')
 var $shipWheel = $('.ship-wheel')
 
+var $paraButton = $('.submarine');
+var $scope = $('.scope')
+
 $navBtn.on('click', function () {
 	$nav.addClass('navigation-open');
 });
@@ -32,3 +35,7 @@ $anchorButton.on('click', function () {
 $exploreButton.on('click', function () {
 	$shipWheel.toggleClass('wheel-graphic-animate');
 });
+
+$paraButton.on('click', function () {
+	$scope.toggleClass('scope-up')
+})
