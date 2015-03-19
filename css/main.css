@@ -173,8 +173,17 @@ body {
   transition: all 400ms linear;
 }
 
+.button-design {
+  border: 10px solid;
+  padding:1em;
+  cursor: pointer;
+  margin-top: 1.5em;
+  border-color: #3399CC;
+  color: #3399CC;
+}
+
 .sub-container-enter {
-  left: -30px;
+  left: -15px;
 }
 
 .scope {
