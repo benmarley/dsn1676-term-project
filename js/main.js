@@ -13,7 +13,7 @@ var $paraButton = $('.submarine');
 var $scope = $('.scope')
 
 var $subEnter = $('.sub-enter');
-var $subContain = $('.sub-container')
+var $subContain = $('.sub-container');
 
 $navBtn.on('click', function () {
 	$nav.addClass('navigation-open');

@@ -21,7 +21,6 @@ body {
 	padding: 0;
 }
 
-
 .waves:hover {
   background-position: center -.5em;
   -webkit-transition: all 3000ms alternate;
@@ -36,7 +35,6 @@ body {
   overflow: hidden;
   position: relative;
 }
-
 
 .logo {
   width: 20%;
@@ -67,7 +65,6 @@ body {
   transform: rotate(360deg);
   -webkit-transition: all 500ms ease-in-out;
   transition: all 500ms ease-in-out;
-
 }
 
 .center-button {
@@ -75,8 +72,8 @@ body {
  overflow: hidden;
  position: relative;
  z-index: 1;
-
 }
+
 .anchor-prop {
   width: 50%;
   position: relative;
@@ -119,11 +116,12 @@ body {
   border-color: black;
   border-width: 3px;
 }
+
 .x-button {
   height: 8em;
-  width:5em;
+  width: 5em;
   position: absolute;
-  right: 84%;
+  right: 82%;
   top: 10%;
   background-image: url("../images/ximage.svg");
   background-repeat: no-repeat;
@@ -131,6 +129,7 @@ body {
   background-position: center;
   z-index: 1;
 }
+
 .navigation {
   position: relative;  
   z-index: 1;
@@ -139,10 +138,9 @@ body {
   background-color: #3399CC;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-
 }
-.navigation-open {
 
+.navigation-open {
   opacity:1;
   height: 8em;
   -webkit-transition: all 400ms linear;
@@ -160,7 +158,9 @@ body {
   font-size: 100%;
   text-decoration: none;
   border: solid white 1px;
-  margin-bottom: 1em;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-bottom:1em;
 }
 
 .container {
@@ -298,7 +298,6 @@ body {
   position: absolute;
   top: -5em;
   background-position: center 10em;
-
   background-size: 210%;
   -webkit-animation: waves 10s linear infinite alternate;
   animation: waves 10s linear infinite alternate; 
@@ -401,7 +400,7 @@ body {
   0% {
     transform: translateY(0px);
   }
-  
+
   100% {
     transform: translateY(-200px);
   }
@@ -457,10 +456,9 @@ body {
     bottom: 1400px;
     width: 50%;
   }
-    .anchor-drop {
-  transform: translateY(800px);
+  .anchor-drop {
+    transform: translateY(800px);
 }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -472,7 +470,7 @@ body {
     background-position: center -20em;
     -webkit-transition: all 3000ms linear;
     transition: all 3000ms linear;
-}
+  }
 
   .anchor-prop {
     bottom: 1100px;
@@ -481,23 +479,23 @@ body {
 
   .anchor-drop {
   transform: translateY(850px);
-}
+  }
 
-.list-item {
-font-size: 110%;
-}
+  .list-item {
+  font-size: 110%;
+  }
 
-.x-button {
-  right: 90%
-}
+  .x-button {
+    right: 90%
+  }
 
-.scope {
-  top:50px;
-}
-.scope-up {
-  -webkit-transform: translateY(-85px);
-  transform: translateY(-85px);
-}
+  .scope {
+    top:60px;
+  }
+  .scope-up {
+    -webkit-transform: translateY(-85px);
+    transform: translateY(-85px);
+  }
 }
 @media only screen and (min-width: 60em) {
   .boat {
@@ -516,26 +514,27 @@ font-size: 110%;
 
   .anchor-arrow {
     width: 8%;
+  }
+
+  .anchor-drop {
+    transform: translateY(1000px);
+  }
+
+  .anchor-prop {
+    bottom: 1400px;
+    width: 70%;
+  }
+
+  .list-item {
+  font-size: 120%;
+  }
+
+  .scope-up {
+    -webkit-transform: translateY(-95px);
+    transform: translateY(-95px);
+  }
 }
 
-.anchor-drop {
-  transform: translateY(1000px);
-}
-
-.anchor-prop {
-  bottom: 1400px;
-  width: 70%;
-}
-
-.list-item {
-font-size: 120%;
-}
-
-.scope-up {
-  -webkit-transform: translateY(-95px);
-  transform: translateY(-95px);
-}
-}
 @media only screen and (min-width: 80em) {
 
   .boat {
@@ -546,67 +545,63 @@ font-size: 120%;
     background-position: center -43em;
     -webkit-transition: all 3000ms linear;
     transition: all 3000ms linear;
-}
+  }
 
-.anchor-drop {
-  transform: translateY(600px);
-}
+  .anchor-drop {
+    transform: translateY(600px);
+  }
 
+  .anchor-prop {
+    bottom: 1200px;
+    width: 50%;
+  }
 
-.anchor-prop {
-  bottom: 1200px;
-  width: 50%;
-}
+  .list-item {
+    font-size: 130%;
+  }
 
-.list-item {
-font-size: 130%;
-}
-
-.scope-up {
-  -webkit-transform: translateY(-105px);
-  transform: translateY(-105px);
-}
-
-
+  .scope-up {
+    -webkit-transform: translateY(-105px);
+    transform: translateY(-105px);
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
-      .boat {
+  .boat {
     top: 11em;
   }
 
-      .waves:hover {
-  background-position: center -50em;
-  -webkit-transition: all 3000ms linear;
-  transition: all 3000ms linear;
+  .waves:hover {
+    background-position: center -50em;
+    -webkit-transition: all 3000ms linear;
+    transition: all 3000ms linear;
+  }
+
+  .anchor-prop {
+    bottom: 1800px;
+    width: 60%;
+  }
+
+  .anchor-drop {
+    transform: translateY(1000px);
+  }
+
+  .list-item {
+    font-size: 140%;
+  }
 }
-
-.anchor-prop {
-  bottom: 1800px;
-  width: 60%;
-}
-
-.anchor-drop {
-  transform: translateY(1000px);
-}
-
-.list-item {
-font-size: 140%;
-}
-
-
 
 @media only screen and (min-width: 130em) {
 
-    .boat {
+  .boat {
     top: 12em;
   }
 
-    .waves:hover {
-  background-position: center -60em;
-  -webkit-transition: all 3000ms linear;
-  transition: all 3000ms linear;
+  .waves:hover {
+    background-position: center -60em;
+    -webkit-transition: all 3000ms linear;
+    transition: all 3000ms linear;
   }
   .anchor-prop {
     bottom: 2200px;
