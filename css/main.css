@@ -187,6 +187,16 @@ body {
   color: #3399CC;
 }
 
+.button-design-para {
+  border: 5px solid;
+  padding:.3em;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 1.5em;
+  border-color: #3399CC;
+  color: #3399CC;
+}
+
 .sub-container-enter {
   left: -15px;
 }
@@ -484,6 +494,10 @@ font-size: 110%;
 .scope {
   top:50px;
 }
+.scope-up {
+  -webkit-transform: translateY(-85px);
+  transform: translateY(-85px);
+}
 }
 @media only screen and (min-width: 60em) {
   .boat {
@@ -517,6 +531,10 @@ font-size: 110%;
 font-size: 120%;
 }
 
+.scope-up {
+  -webkit-transform: translateY(-95px);
+  transform: translateY(-95px);
+}
 }
 @media only screen and (min-width: 80em) {
 
@@ -543,6 +561,12 @@ font-size: 120%;
 .list-item {
 font-size: 130%;
 }
+
+.scope-up {
+  -webkit-transform: translateY(-105px);
+  transform: translateY(-105px);
+}
+
 
 }
 
@@ -585,6 +609,6 @@ font-size: 140%;
   transition: all 3000ms linear;
   }
   .anchor-prop {
-    bottom: 900px;
+    bottom: 2200px;
   }
 }
