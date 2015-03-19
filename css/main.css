@@ -119,10 +119,11 @@ body {
   height: 8em;
   width:5em;
   position: absolute;
-  right: 90%;
+  right: 84%;
+  top: 10%;
   background-image: url("../images/ximage.svg");
   background-repeat: no-repeat;
-  background-size: 3em;
+  background-size: 2em;
   background-position: center;
   z-index: 1;
 }
@@ -167,7 +168,7 @@ body {
   background-image: url("../images/submarine.svg"); 
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 1000;
+  z-index: 1;
 
 }
 
@@ -177,7 +178,7 @@ body {
   position: relative;
   right: 20px;
   top: 5px;
-  z-index: 3000;
+  z-index: 9999;
   transition: all 300ms linear;
 }
 
@@ -191,6 +192,10 @@ body {
   top: 10px;
   z-index: 1;
 }*/
+
+.explore-button {
+  margin-bottom: 2em;
+}
 
 .wheel-graphic {
   transform: scale(0,0) rotate(0deg);
@@ -441,6 +446,8 @@ font-size: 110%;
   height: 140px;
   width: 70px;
 }
+.x-button {
+  right: 90%
 }
 
 @media only screen and (min-width: 60em) {
@@ -467,7 +474,7 @@ font-size: 110%;
 }
 
 .anchor-prop {
-  bottom: 1299px;
+  bottom: 1400px;
   width: 70%;
 }
 
@@ -524,7 +531,7 @@ font-size: 130%;
 }
 
 .anchor-prop {
-  bottom: 1400px;
+  bottom: 1800px;
   width: 60%;
 }
 
