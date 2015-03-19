@@ -12,6 +12,9 @@ var $shipWheel = $('.ship-wheel')
 var $paraButton = $('.submarine');
 var $scope = $('.scope')
 
+var $subEnter = $('.sub-enter');
+var $subContain = $('.sub-container')
+
 $navBtn.on('click', function () {
 	$nav.addClass('navigation-open');
 });
@@ -37,5 +40,9 @@ $exploreButton.on('click', function () {
 });
 
 $paraButton.on('click', function () {
-	$scope.toggleClass('scope-up')
-})
+	$scope.toggleClass('scope-up');
+});
+
+$subEnter.on('click', function () {
+	$subContain.toggleClass('sub-container-enter');
+});

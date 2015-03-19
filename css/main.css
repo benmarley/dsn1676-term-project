@@ -169,7 +169,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 1;
+  left:20em;
+  transition: all 400ms linear;
+}
 
+.sub-container-enter {
+  left: -30px;
 }
 
 .scope {
