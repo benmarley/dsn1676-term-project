@@ -6,6 +6,9 @@ var $xButton = $('.x-button');
 var $anchor = $('.anchor-graphic');
 var $anchorButton = $('.anchor-button');
 
+var $exploreButton = $('.explore-button')
+var $shipWheel = $('.ship-wheel')
+
 $navBtn.on('click', function () {
 	$nav.addClass('navigation-open');
 });
@@ -26,4 +29,6 @@ $anchorButton.on('click', function () {
 	$anchor.toggleClass('anchor-drop');
 });
 
-
+$exploreButton.on('click', function () {
+	$shipWheel.toggleClass('wheel-graphic-animate');
+});

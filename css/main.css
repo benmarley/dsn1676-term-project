@@ -34,7 +34,9 @@ body {
   position: relative;
   top: -.5em;
   overflow: hidden;
+  position: relative;
 }
+
 
 .logo {
   width: 20%;
@@ -150,8 +152,49 @@ body {
 
 .list-item {
   list-style-type: none;
-  font-size: 180%;
+  font-size: 100%;
   text-decoration: none;
+}
+
+.container {
+  position: relative;
+}
+.scope {
+  height: 100px;
+  width: 70px;
+  background-image: url("../images/submarine-scope.svg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: -17px 0px;
+  position: absolute;
+  transform:;
+
+}
+.wheel-graphic {
+  transform: scale(0,0) rotate(0deg);
+  transition: all 600ms linear;
+
+}
+.wheel-graphic-animate {
+  transform: scale(1,1) rotate(360deg);
+  animation: wheelgrow 6s linear;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes wheelgrow {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(90deg)
+  }
+  66% {
+    transform: rotate(-90deg)
+  }
+  100% {
+    transform: rotate(90deg);
+  }
 }
 
 .navigation a {
@@ -363,6 +406,10 @@ body {
   transform: translateY(850px);
 }
 
+.list-item {
+font-size: 110%;
+}
+
 @media only screen and (min-width: 60em) {
   .boat {
     top: 9em;
@@ -391,6 +438,9 @@ body {
   width: 70%;
 }
 
+.list-item {
+font-size: 120%;
+}
 @media only screen and (min-width: 80em) {
 
   .boat {
@@ -413,6 +463,10 @@ body {
   width: 50%;
 }
 
+.list-item {
+font-size: 130%;
+}
+
 @media only screen and (min-width: 90em) {
 
       .boat {
@@ -427,12 +481,18 @@ body {
 
 .anchor-prop {
   bottom: 1400px;
-  width: 40%;
+  width: 60%;
 }
 
 .anchor-drop {
-  transform: translateY(900px);
+  transform: translateY(1000px);
 }
+
+.list-item {
+font-size: 140%;
+}
+
+
 
 @media only screen and (min-width: 130em) {
 
