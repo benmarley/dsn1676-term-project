@@ -457,6 +457,7 @@ body {
     width: 50%;
   }
   .anchor-drop {
+    -webkit-transform: translateY(800px);
     transform: translateY(800px);
 }
 }
@@ -478,6 +479,7 @@ body {
   }
 
   .anchor-drop {
+  -webkit-transform: translateY(850px);
   transform: translateY(850px);
   }
 
@@ -497,6 +499,7 @@ body {
     transform: translateY(-85px);
   }
 }
+
 @media only screen and (min-width: 60em) {
   .boat {
     top: 9em;
@@ -517,6 +520,7 @@ body {
   }
 
   .anchor-drop {
+    -webkit-transform: translateY(1000px);
     transform: translateY(1000px);
   }
 
@@ -584,6 +588,7 @@ body {
   }
 
   .anchor-drop {
+    -webkit-transform: translateY(1000px);
     transform: translateY(1000px);
   }
 
