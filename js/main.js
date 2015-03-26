@@ -15,6 +15,9 @@ var $scope = $('.scope')
 var $subEnter = $('.sub-enter');
 var $subContain = $('.sub-container');
 
+var $footer = $('.footer');
+var $anchorArrow = $('.banner')
+
 $navBtn.on('click', function () {
 	$nav.addClass('navigation-open');
 });
@@ -46,3 +49,9 @@ $paraButton.on('click', function () {
 $subEnter.on('click', function () {
 	$subContain.toggleClass('sub-container-enter');
 });
+
+$nav.localScroll();
+
+$footer.localScroll();
+
+$anchorArrow.localScroll();
