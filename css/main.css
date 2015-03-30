@@ -227,11 +227,12 @@ body {
 
 footer a,
 footer a:visited {
-  color: #0099CC;
+  color: #003366;
   text-decoration: none;
   float: left;
-  padding: 3%;
-  border: solid white;
+  background-color: #6699CC;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .scope-up {
