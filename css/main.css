@@ -178,23 +178,25 @@ body {
 }
 
 .button-design {
-  border: 10px solid;
+  border: 2px dashed;
   padding:1em;
-  background-color: white;
+  background-color: #3399CC;
   cursor: pointer;
   margin-top: 1.5em;
-  border-color: #3399CC;
-  color: #3399CC;
+  border-color: #006699;
+  color: white;
+  border-radius: 10px;
 }
 
 .button-design-para {
-  border: 5px solid;
+  border: 2px dashed;
   padding:.3em;
-  background-color: white;
+  background-color: #3399CC;
   cursor: pointer;
   margin-top: 1.5em;
-  border-color: #3399CC;
-  color: #3399CC;
+  border-color: #006699;
+  color: white;
+  border-radius: 10px;
 }
 
 .sub-container-enter {
@@ -215,7 +217,7 @@ body {
   overflow: hidden;
 }
 .footer-logo {
-  width: 10%;
+  width: 20%;
   float: right;
   padding: 2%
 }
@@ -233,6 +235,9 @@ footer a:visited {
   background-color: #6699CC;
   padding-left: 1em;
   padding-right: 1em;
+  border: dotted;
+  margin: .5em;
+  border-radius: 12px;
 }
 
 .scope-up {
@@ -480,6 +485,9 @@ footer a:visited {
     -webkit-transform: translateY(800px);
     transform: translateY(800px);
 }
+  .footer-logo {
+  width: 30%;
+}
 }
 
 @media only screen and (min-width: 38em) {
@@ -518,6 +526,9 @@ footer a:visited {
     -webkit-transform: translateY(-85px);
     transform: translateY(-85px);
   }
+  .footer-logo {
+  width: 20%;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -557,6 +568,9 @@ footer a:visited {
     -webkit-transform: translateY(-95px);
     transform: translateY(-95px);
   }
+  .footer-logo {
+  width: 15%;
+}
 }
 
 @media only screen and (min-width: 80em) {
@@ -588,6 +602,12 @@ footer a:visited {
     -webkit-transform: translateY(-105px);
     transform: translateY(-105px);
   }
+  .footer-logo {
+  width: 30%;
+}
+  .footer-logo {
+  width: 12%;
+}
 }
 
 @media only screen and (min-width: 90em) {
@@ -615,6 +635,10 @@ footer a:visited {
   .list-item {
     font-size: 140%;
   }
+
+  .footer-logo {
+  width: 12%;
+}
 }
 
 @media only screen and (min-width: 130em) {
@@ -631,4 +655,7 @@ footer a:visited {
   .anchor-prop {
     bottom: 2200px;
   }
+  .footer-logo {
+  width: 12%;
+}
 }
