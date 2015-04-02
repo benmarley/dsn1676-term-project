@@ -315,7 +315,6 @@ footer a:visited {
   transform-origin: center;
 }
 .waves {
-
   width: 120%;
   background-image: url("../images/waves-graphic-bottom.svg");
   background-repeat: no-repeat;
@@ -574,7 +573,6 @@ footer a:visited {
 }
 
 @media only screen and (min-width: 80em) {
-
   .boat {
     top: 10em;
   }
@@ -611,7 +609,6 @@ footer a:visited {
 }
 
 @media only screen and (min-width: 90em) {
-
   .boat {
     top: 11em;
   }
@@ -642,7 +639,6 @@ footer a:visited {
 }
 
 @media only screen and (min-width: 130em) {
-
   .boat {
     top: 12em;
   }
