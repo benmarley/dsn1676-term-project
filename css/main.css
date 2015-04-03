@@ -244,6 +244,9 @@ footer a:visited {
   -webkit-transform: translateY(-70px);
   transform: translateY(-70px);
 }
+.animation-frame {
+  text-align: center;
+}
 
 .explore-button {
   margin-bottom: 2em;
