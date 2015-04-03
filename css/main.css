@@ -249,18 +249,37 @@ footer a:visited {
 }
 
 #front-right {
+  -webkit-animation: rightrotatefront 4s infinite;
   animation: rightrotatefront 4s infinite;
+  -webkit-transform-origin: center left;
   transform-origin: center left;
 }
 
 #middle-right {
+  -webkit-animation: rightrotate 2s infinite;
   animation: rightrotate 2s infinite;
+  -webkit-transform-origin: 20px center;
   transform-origin: 20px center;
 }
 
 #back-right {
+  -webkit-animation: rightrotate 1s infinite;
   animation: rightrotate 1s infinite;
+  -webkit-transform-origin: center center;
   transform-origin: center center;
+}
+
+@-webkit-keyframes rightrotate {
+
+  0% {
+  -webkit-transform: rotate(0deg);
+  }
+  50% {
+  -webkit-transform: rotate(-3deg);
+  }
+  100% {
+  -webkit-transform: rotate(0deg);
+  }
 }
 
 @keyframes rightrotate {
@@ -274,7 +293,19 @@ footer a:visited {
   100% {
   transform: rotate(0deg);
   }
+}
 
+@-webkit-keyframes rightrotatefront {
+
+  0% {
+  -webkit-transform: rotate(0deg);
+  }
+  50% {
+  -webkit-transform: rotate(14deg);
+  }
+  100% {
+  -webkit-transform: rotate(0deg);
+  }
 }
 
 @keyframes rightrotatefront {
@@ -288,25 +319,41 @@ footer a:visited {
   100% {
   transform: rotate(0deg);
   }
-
 }
 
 #front-left {
+  -webkit-animation: leftrotatefront 4s infinite;
   animation: leftrotatefront 4s infinite;
+  -webkit-transform-origin: right -60px;
   transform-origin: right -60px;
 }
 
 #middle-left {
+  -webkit-animation: leftrotate 2s infinite;
   animation: leftrotate 2s infinite;
+  -webkit-transform-origin: center right;
   transform-origin: center right;
 }
 #back-left {
+  -webkit-animation: leftrotate 1s infinite;
   animation: leftrotate 1s infinite;
+  -webkit-transform-origin: center right;
   transform-origin: center right;
 }
 
-@keyframes leftrotate {
+@-webkit-keyframes leftrotate {
+  0% {
+  -webkit-transform: rotate(0deg);
+  }
+  50% {
+  -webkit-transform: rotate(-5deg);
+  }
+  100% {
+  -webkit-transform: rotate(0deg);
+  }
+}
 
+@keyframes leftrotate {
   0% {
   transform: rotate(0deg);
   }
@@ -316,11 +363,21 @@ footer a:visited {
   100% {
   transform: rotate(0deg);
   }
+}
 
+@-webkit-keyframes leftrotatefront {
+  0% {
+  -webkit-transform: rotate(0deg);
+  }
+  40% {
+  -webkit-transform: rotate(-5deg);
+  }
+  100% {
+  -webkit-transform: rotate(0deg);
+  }
 }
 
 @keyframes leftrotatefront {
-
   0% {
   transform: rotate(0deg);
   }
@@ -330,16 +387,7 @@ footer a:visited {
   100% {
   transform: rotate(0deg);
   }
-
 }
-
-
-
-
-
-
-
-
 
 .explore-button {
   margin-bottom: 2em;
