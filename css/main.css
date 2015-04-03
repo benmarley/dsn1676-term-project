@@ -248,6 +248,98 @@ footer a:visited {
   text-align: center;
 }
 
+#front-right {
+  animation: rightrotatefront 4s infinite;
+  transform-origin: center left;
+}
+
+#middle-right {
+  animation: rightrotate 2s infinite;
+  transform-origin: 20px center;
+}
+#back-right {
+  animation: rightrotate 1s infinite;
+  transform-origin: center center;
+}
+
+@keyframes rightrotate {
+
+  0% {
+  transform: rotate(0deg);
+  }
+  50% {
+  transform: rotate(-3deg);
+  }
+  100% {
+  transform: rotate(0deg);
+  }
+
+}
+
+@keyframes rightrotatefront {
+
+  0% {
+  transform: rotate(0deg);
+  }
+  50% {
+  transform: rotate(14deg);
+  }
+  100% {
+  transform: rotate(0deg);
+  }
+
+}
+
+#front-left {
+  animation: leftrotatefront 4s infinite;
+  transform-origin: center top;
+}
+
+#middle-left {
+  animation: leftrotate 2s infinite;
+  transform-origin: center right;
+}
+#back-left {
+  animation: leftrotate 1s infinite;
+  transform-origin: center right;
+}
+
+@keyframes leftrotate {
+
+  0% {
+  transform: rotate(0deg);
+  }
+  50% {
+  transform: rotate(-5deg);
+  }
+  100% {
+  transform: rotate(0deg);
+  }
+
+}
+
+@keyframes leftrotatefront {
+
+  0% {
+  transform: rotate(0deg);
+  }
+  50% {
+  transform: rotate(15deg);
+  }
+  100% {
+  transform: rotate(0deg);
+  }
+
+}
+
+
+
+
+
+
+
+
+
 .explore-button {
   margin-bottom: 2em;
 }
