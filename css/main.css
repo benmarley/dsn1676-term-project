@@ -257,6 +257,7 @@ footer a:visited {
   animation: rightrotate 2s infinite;
   transform-origin: 20px center;
 }
+
 #back-right {
   animation: rightrotate 1s infinite;
   transform-origin: center center;
@@ -292,7 +293,7 @@ footer a:visited {
 
 #front-left {
   animation: leftrotatefront 4s infinite;
-  transform-origin: center top;
+  transform-origin: right -60px;
 }
 
 #middle-left {
@@ -323,8 +324,8 @@ footer a:visited {
   0% {
   transform: rotate(0deg);
   }
-  50% {
-  transform: rotate(15deg);
+  40% {
+  transform: rotate(-5deg);
   }
   100% {
   transform: rotate(0deg);
