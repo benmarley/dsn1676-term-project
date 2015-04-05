@@ -246,27 +246,34 @@ footer a:visited {
 }
 .animation-frame {
   text-align: center;
+  position: relative;
+  bottom: 10px;
+  overflow: visible;
+}
+
+#octopus {
+  overflow: visible;
 }
 
 #front-right {
   -webkit-animation: rightrotatefront 4s infinite;
   animation: rightrotatefront 4s infinite;
-  -webkit-transform-origin: center left;
-  transform-origin: center left;
+  -webkit-transform-origin: 50% 20%;
+  transform-origin: 50% 20%;
 }
 
 #middle-right {
   -webkit-animation: rightrotate 2s infinite;
   animation: rightrotate 2s infinite;
-  -webkit-transform-origin: 20px center;
-  transform-origin: 20px center;
+  -webkit-transform-origin: 20px 40%;
+  transform-origin: 20px 40%;
 }
 
 #back-right {
-  -webkit-animation: rightrotate 1s infinite;
-  animation: rightrotate 1s infinite;
-  -webkit-transform-origin: center center;
-  transform-origin: center center;
+  -webkit-animation: rightrotate 2s infinite;
+  animation: rightrotate 2s infinite;
+  -webkit-transform-origin: 50% 20px;
+  transform-origin: 50% 20px;
 }
 
 @-webkit-keyframes rightrotate {
@@ -301,7 +308,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(14deg);
+  -webkit-transform: rotate(17deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -314,7 +321,7 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(14deg);
+  transform: rotate(17deg);
   }
   100% {
   transform: rotate(0deg);
@@ -324,21 +331,21 @@ footer a:visited {
 #front-left {
   -webkit-animation: leftrotatefront 4s infinite;
   animation: leftrotatefront 4s infinite;
-  -webkit-transform-origin: right -60px;
-  transform-origin: right -60px;
+  -webkit-transform-origin: 50% 0px;
+  transform-origin: 50% 0px;
 }
 
 #middle-left {
   -webkit-animation: leftrotate 2s infinite;
   animation: leftrotate 2s infinite;
-  -webkit-transform-origin: center right;
-  transform-origin: center right;
+  -webkit-transform-origin: 50% 0px;
+  transform-origin: 50% 0px;
 }
 #back-left {
-  -webkit-animation: leftrotate 1s infinite;
-  animation: leftrotate 1s infinite;
-  -webkit-transform-origin: center right;
-  transform-origin: center right;
+  -webkit-animation: leftrotate 3s infinite;
+  animation: leftrotate 3s infinite;
+  -webkit-transform-origin: 50% 20px;
+  transform-origin: 50% 20px;
 }
 
 @-webkit-keyframes leftrotate {
