@@ -265,8 +265,8 @@ footer a:visited {
 #middle-right {
   -webkit-animation: rightrotate 2s infinite;
   animation: rightrotate 2s infinite;
-  -webkit-transform-origin: 20px 40%;
-  transform-origin: 20px 40%;
+  -webkit-transform-origin: 20px 30%;
+  transform-origin: 20px 30%;
 }
 
 #back-right {
@@ -308,7 +308,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(17deg);
+  -webkit-transform: rotate(30deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -321,7 +321,7 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(17deg);
+  transform: rotate(30deg);
   }
   100% {
   transform: rotate(0deg);
