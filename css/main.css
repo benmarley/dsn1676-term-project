@@ -249,6 +249,7 @@ footer a:visited {
   position: relative;
   bottom: 10px;
   overflow: visible;
+  width: 100%;
 }
 
 #octopus {
