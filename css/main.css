@@ -215,6 +215,7 @@ body {
 .footer {
   background-color: #003366;
   overflow: hidden;
+  z-index: 2;
 }
 .footer-logo {
   width: 20%;
@@ -250,7 +251,7 @@ footer a:visited {
   position: relative;
   bottom: 10px;
   overflow: visible;
-  width: 100%;
+  z-index: 1;
 }
 
 #octopus {
@@ -261,22 +262,22 @@ footer a:visited {
 #front-right {
   -webkit-animation: rightrotatefront 4s infinite;
   animation: rightrotatefront 4s infinite;
-  -webkit-transform-origin: 50% 20%;
-  transform-origin: 50% 20%;
+  -webkit-transform-origin: 160px 250px;
+  transform-origin: 160px 250px;
 }
 
 #middle-right {
   -webkit-animation: rightrotate 2s infinite;
   animation: rightrotate 2s infinite;
-  -webkit-transform-origin: 20px 30%;
-  transform-origin: 20px 30%;
+  -webkit-transform-origin: 310px 170px;
+  transform-origin: 310px 170px;
 }
 
 #back-right {
   -webkit-animation: rightrotate 2s infinite;
   animation: rightrotate 2s infinite;
-  -webkit-transform-origin: 50% 20px;
-  transform-origin: 50% 20px;
+  -webkit-transform-origin: 230px 190px;
+  transform-origin: 230px 190px;
 }
 
 @-webkit-keyframes rightrotate {
@@ -285,7 +286,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(-3deg);
+  -webkit-transform: rotate(10deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -298,7 +299,7 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(-3deg);
+  transform: rotate(10deg);
   }
   100% {
   transform: rotate(0deg);
@@ -311,7 +312,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(30deg);
+  -webkit-transform: rotate(15deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -324,7 +325,7 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(30deg);
+  transform: rotate(15deg);
   }
   100% {
   transform: rotate(0deg);
@@ -334,21 +335,21 @@ footer a:visited {
 #front-left {
   -webkit-animation: leftrotatefront 4s infinite;
   animation: leftrotatefront 4s infinite;
-  -webkit-transform-origin: 50% 0px;
-  transform-origin: 50% 0px;
+  -webkit-transform-origin: 0px -280px;
+  transform-origin: 0px -280px;
 }
 
 #middle-left {
   -webkit-animation: leftrotate 2s infinite;
   animation: leftrotate 2s infinite;
-  -webkit-transform-origin: 50% 0px;
-  transform-origin: 50% 0px;
+  -webkit-transform-origin: 180px 200px;
+  transform-origin: 180px 200px;
 }
 #back-left {
   -webkit-animation: leftrotate 3s infinite;
   animation: leftrotate 3s infinite;
-  -webkit-transform-origin: 50% 20px;
-  transform-origin: 50% 20px;
+  -webkit-transform-origin: 140px 90px;
+  transform-origin: 140px 90px;
 }
 
 @-webkit-keyframes leftrotate {
@@ -356,7 +357,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(-5deg);
+  -webkit-transform: rotate(15deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -368,7 +369,7 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(-5deg);
+  transform: rotate(15deg);
   }
   100% {
   transform: rotate(0deg);
