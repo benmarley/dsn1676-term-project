@@ -312,7 +312,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(8deg);
+  -webkit-transform: rotate(9deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -325,10 +325,10 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(10deg);
+  transform: rotate(9deg);
   }
   100% {
-  transform: rotate(10deg);
+  transform: rotate(0deg);
   }
 }
 
