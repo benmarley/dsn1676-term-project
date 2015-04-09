@@ -256,28 +256,28 @@ footer a:visited {
 
 #octopus {
   overflow: visible;
-  width: 100%;
+  width: 300px;
 }
 
 #front-right {
   -webkit-animation: rightrotatefront 4s infinite;
   animation: rightrotatefront 4s infinite;
-  -webkit-transform-origin: 160px 250px;
-  transform-origin: 160px 250px;
+  -webkit-transform-origin: 20px 30px;
+  transform-origin: 20px 30px;
 }
 
 #middle-right {
   -webkit-animation: rightrotate 2s infinite;
   animation: rightrotate 2s infinite;
-  -webkit-transform-origin: 310px 170px;
-  transform-origin: 310px 170px;
+  -webkit-transform-origin: 10px 30px;
+  transform-origin: 10px 30px;
 }
 
 #back-right {
   -webkit-animation: rightrotate 2s infinite;
   animation: rightrotate 2s infinite;
-  -webkit-transform-origin: 230px 190px;
-  transform-origin: 230px 190px;
+  -webkit-transform-origin: 20px 0px;
+  transform-origin: 20px 0px;
 }
 
 @-webkit-keyframes rightrotate {
@@ -286,7 +286,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(10deg);
+  -webkit-transform: rotate(2deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -299,7 +299,7 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(10deg);
+  transform: rotate(2deg);
   }
   100% {
   transform: rotate(0deg);
@@ -312,7 +312,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(8deg);
+  -webkit-transform: rotate(3deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -325,7 +325,7 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(8deg);
+  transform: rotate(3deg);
   }
   100% {
   transform: rotate(0deg);
@@ -335,21 +335,21 @@ footer a:visited {
 #front-left {
   -webkit-animation: leftrotatefront 4s infinite;
   animation: leftrotatefront 4s infinite;
-  -webkit-transform-origin: 0px -280px;
-  transform-origin: 0px -280px;
+  -webkit-transform-origin: -10px 30px;
+  transform-origin: -10px 30px;
 }
 
 #middle-left {
   -webkit-animation: leftrotate 2s infinite;
   animation: leftrotate 2s infinite;
-  -webkit-transform-origin: 180px 200px;
-  transform-origin: 180px 200px;
+  -webkit-transform-origin: 20px 0px;
+  transform-origin: 20px 0px;
 }
 #back-left {
   -webkit-animation: leftrotate 3s infinite;
   animation: leftrotate 3s infinite;
-  -webkit-transform-origin: 140px 90px;
-  transform-origin: 140px 90px;
+  -webkit-transform-origin: -20px -20px;
+  transform-origin: -20px -20px;
 }
 
 @-webkit-keyframes leftrotate {
@@ -357,7 +357,7 @@ footer a:visited {
   -webkit-transform: rotate(0deg);
   }
   50% {
-  -webkit-transform: rotate(15deg);
+  -webkit-transform: rotate(4deg);
   }
   100% {
   -webkit-transform: rotate(0deg);
@@ -369,7 +369,7 @@ footer a:visited {
   transform: rotate(0deg);
   }
   50% {
-  transform: rotate(15deg);
+  transform: rotate(4deg);
   }
   100% {
   transform: rotate(0deg);
@@ -683,6 +683,36 @@ footer a:visited {
   .footer-logo {
   width: 20%;
 }
+
+#octopus {
+  width: 600px;
+}
+
+#front-right {
+  -webkit-transform-origin: 0px 83px;
+  transform-origin: 0px 83px;
+}
+
+#middle-right {
+  -webkit-transform-origin: -30px 50px;
+  transform-origin: -30px 50px;
+}
+#back-right {
+  -webkit-transform-origin: -1px 20px;
+  transform-origin: -1px 20px;
+}
+#front-left {
+  -webkit-transform-origin: -26px -70px;
+  transform-origin: -26px -70px;
+}
+#middle-left {
+  -webkit-transform-origin: 43px 30px;
+  transform-origin: 43px 30px;
+}
+#back-left {
+  -webkit-transform-origin: -20px 0px;
+  transform-origin: -20px 0px;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -724,6 +754,35 @@ footer a:visited {
   }
   .footer-logo {
   width: 15%;
+}
+#octopus {
+  width: 900px;
+}
+
+#front-right {
+  -webkit-transform-origin: 20px 53px;
+  transform-origin: 20px 53px;
+}
+
+#middle-right {
+  -webkit-transform-origin: 0px 20px;
+  transform-origin: 0px 20px;
+}
+#back-right {
+  -webkit-transform-origin: -1px 20px;
+  transform-origin: -1px 20px;
+}
+#front-left {
+  -webkit-transform-origin: -14px -19px;
+  transform-origin: -14px -19px;
+}
+#middle-left {
+  -webkit-transform-origin: -37px 30px;
+  transform-origin: -37px 30px;
+}
+#back-left {
+  -webkit-transform-origin: -20px 0px;
+  transform-origin: -20px 0px;
 }
 }
 
