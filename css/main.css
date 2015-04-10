@@ -241,12 +241,19 @@ footer a:visited {
   margin: .5em;
   border-radius: 12px;
 }
-
-.middle-sign h2 {
-  border-style: solid;
-}
-.middle-sign {
+.sign {
+  border: solid;
   text-align: center;
+}
+.sign h2 {
+}
+
+.octo-text {
+  font-size: 200%;
+  position: relative;
+  bottom: 1em;
+
+
 }
 
 .scope-up {
@@ -264,21 +271,19 @@ footer a:visited {
 
 .octo {
   position: relative;
-  left: 60em;
+  left: 30em;
   transform: scale(0,0);
-  transition: all 700ms linear;
+  transition: all 500ms linear;
 }
 
 #octopus {
   overflow: visible;
   width: 300px;
-  position: relative;
-
-  
+  position: relative; 
 }
 
 .rush-octo {
-  left: -1em;
+  left: 0em;
  transform: scale(1,1);
 }
 
