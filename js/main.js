@@ -61,7 +61,7 @@ var $octo = $('.octo');
 $octo.waypoint(function (){
 	// console.log('waypoint');
 	$octo.toggleClass('rush-octo');
-}, {offset: '70%' });
+}, {offset: '75%' });
 
 
 
