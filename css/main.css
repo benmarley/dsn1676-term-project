@@ -241,19 +241,14 @@ footer a:visited {
   margin: .5em;
   border-radius: 12px;
 }
+.sign-container {
+text-align: center;
+}
+
 .sign {
   border: solid;
-  text-align: center;
-}
-.sign h2 {
-}
-
-.octo-text {
-  font-size: 200%;
-  position: relative;
-  bottom: 1em;
-
-
+  width: 50%;
+  transform: translateX(50%);
 }
 
 .scope-up {
@@ -272,7 +267,9 @@ footer a:visited {
 .octo {
   position: relative;
   left: 30em;
+  -webkit-transform: scale(0,0);
   transform: scale(0,0);
+  -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
 }
 
@@ -284,7 +281,8 @@ footer a:visited {
 
 .rush-octo {
   left: 0em;
- transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
 }
 
 #front-right {
