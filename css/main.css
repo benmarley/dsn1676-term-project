@@ -218,6 +218,7 @@ body {
   position: relative;
   z-index: 1;
 }
+
 .footer-logo {
   width: 20%;
   float: right;
@@ -241,6 +242,7 @@ footer a:visited {
   margin: .5em;
   border-radius: 12px;
 }
+
 .sign-container {
 text-align: center;
 }
