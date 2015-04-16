@@ -173,14 +173,14 @@ button:focus {
   transition: all 400ms linear;
 }
 
-.list-item {
+nav li {
   list-style-type: none;
-  font-size: 100%;
-  text-decoration: none;
-  border: solid white 1px;
-  margin-right: 1em;
-  margin-left: 1em;
-  margin-bottom:1em;
+  margin: 1em;
+}
+
+.focus-nav {
+  border: solid black;
+  padding: .5em;
 }
 
 .container {
