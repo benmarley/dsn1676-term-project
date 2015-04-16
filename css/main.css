@@ -781,10 +781,6 @@ text-align: center;
     transition: all 3000ms linear;
   }
 
-  .anchor-arrow {
-    width: 8%;
-  }
-
   .anchor-drop {
     -webkit-transform: translateY(1000px);
     transform: translateY(1000px);
