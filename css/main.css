@@ -44,7 +44,7 @@ body {
 
 a:focus,
 button:focus {
-  outline: 1px solid black;
+  outline: 2px solid yellow;
   
 }
 
@@ -650,7 +650,7 @@ text-align: center;
   }
   
   100% {
-    -webkit-tranform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
   }
 }
 
@@ -668,7 +668,7 @@ text-align: center;
   }
 
   100% {
-    tranform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 
