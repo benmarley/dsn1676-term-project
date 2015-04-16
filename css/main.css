@@ -36,6 +36,18 @@ body {
   position: relative;
 }
 
+.copyright {
+  color: white;
+  position: absolute;
+  top: 10em;
+}
+
+a:focus,
+button:focus {
+  outline: 1px solid black;
+  
+}
+
 .logo {
   width: 20%;
   position: relative;
@@ -53,11 +65,19 @@ body {
   margin-bottom: .5em; 
 }
 
+.scrolling {
+  position: relative;
+  z-index: 100;
+  display: inline-block;
+  width: 5rem;
+}
+
 .anchor-arrow {
   text-align: center;
   position: relative;
-  width: 10%;
+  width: 100%;
   padding: .75em 0;
+  z-index: 1;
 }
 
 .anchor-arrow:hover {
@@ -240,6 +260,7 @@ footer a:visited {
   padding-right: 1em;
   border: dotted;
   margin: .5em;
+  margin-bottom: 3em;
   border-radius: 12px;
 }
 
