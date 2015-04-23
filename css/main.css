@@ -204,8 +204,9 @@ button:focus {
 }
 
 .list-item a {
-  padding-left: 30%;
-  padding-right: 30%;
+  border: solid 1px #ccc;
+  padding: 10px;
+  
 }
 
 nav li {
@@ -213,10 +214,6 @@ nav li {
   margin: 1em;
 }
 
-.focus-nav {
-  border: solid black;
-  padding: .5em;
-}
 
 .container {
   position: relative;
@@ -555,6 +552,7 @@ text-align: center;
   -webkit-transform-origin: center;
   transform-origin: center;
 }
+
 .waves {
   width: 120%;
   background-image: url("../images/waves-graphic-bottom.svg");
@@ -567,7 +565,6 @@ text-align: center;
   -webkit-animation: waves 10s linear infinite alternate;
   animation: waves 10s linear infinite alternate; 
 }
-
 
 @-webkit-keyframes waves {
   0% {
