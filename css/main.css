@@ -37,15 +37,39 @@ body {
 }
 
 .copyright {
-  color: white;
+  color: #6699CC;
   position: absolute;
   top: 10em;
+  margin-left: 1em;
 }
 
 a:focus,
 button:focus {
-  outline: 2px solid yellow;
+  outline: 2px solid black;
   
+}
+
+.skiplinks {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skiplinks a {
+  position: absolute;
+  top: -4em;
+  background-color: #006699;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  z-index: 100;
+  text-decoration: none;
+  color: white;
+}
+
+.skiplinks a:focus {
+  top: 0em;
 }
 
 .logo {
@@ -57,6 +81,7 @@ button:focus {
 .title {
   margin: 0;
   position: relative;
+  padding: 0;
 }
 
 .subheader {
