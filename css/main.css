@@ -768,35 +768,35 @@ text-align: center;
     width: 600px;
   }
 
-#front-right {
-  -webkit-transform-origin: 0px 83px;
-  transform-origin: 0px 83px;
-}
+  #front-right {
+    -webkit-transform-origin: 0px 83px;
+    transform-origin: 0px 83px;
+  }
 
-#middle-right {
-  -webkit-transform-origin: -30px 50px;
-  transform-origin: -30px 50px;
-}
+  #middle-right {
+    -webkit-transform-origin: -30px 50px;
+    transform-origin: -30px 50px;
+  }
 
-#back-right {
-  -webkit-transform-origin: -1px 20px;
-  transform-origin: -1px 20px;
-}
+  #back-right {
+    -webkit-transform-origin: -1px 20px;
+    transform-origin: -1px 20px;
+  }
 
-#front-left {
-  -webkit-transform-origin: -26px -70px;
-  transform-origin: -26px -70px;
-}
+  #front-left {
+    -webkit-transform-origin: -26px -70px;
+    transform-origin: -26px -70px;
+  }
 
-#middle-left {
-  -webkit-transform-origin: 43px 30px;
-  transform-origin: 43px 30px;
-}
+  #middle-left {
+    -webkit-transform-origin: 43px 30px;
+    transform-origin: 43px 30px;
+  }
 
-#back-left {
-  -webkit-transform-origin: -20px 0px;
-  transform-origin: -20px 0px;
-}
+  #back-left {
+    -webkit-transform-origin: -20px 0px;
+    transform-origin: -20px 0px;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -833,37 +833,41 @@ text-align: center;
     transform: translateY(-95px);
   }
   .footer-logo {
-  width: 15%;
-}
-#octopus {
-  width: 900px;
-}
+    width: 15%;
+  }
+  #octopus {
+    width: 900px;
+  }
 
-#front-right {
-  -webkit-transform-origin: 20px 53px;
-  transform-origin: 20px 53px;
-}
+  #front-right {
+    -webkit-transform-origin: 20px 53px;
+    transform-origin: 20px 53px;
+  }
 
-#middle-right {
-  -webkit-transform-origin: 0px 20px;
-  transform-origin: 0px 20px;
-}
-#back-right {
-  -webkit-transform-origin: -1px 20px;
-  transform-origin: -1px 20px;
-}
-#front-left {
-  -webkit-transform-origin: -14px -19px;
-  transform-origin: -14px -19px;
-}
-#middle-left {
-  -webkit-transform-origin: 23px -9px;
-  transform-origin: 23px -9px;
-}
-#back-left {
-  -webkit-transform-origin: -20px 0px;
-  transform-origin: -20px 0px;
-}
+  #middle-right {
+    -webkit-transform-origin: 0px 20px;
+    transform-origin: 0px 20px;
+  }
+
+  #back-right {
+    -webkit-transform-origin: -1px 20px;
+    transform-origin: -1px 20px;
+  }
+
+  #front-left {
+    -webkit-transform-origin: -14px -19px;
+    transform-origin: -14px -19px;
+  }
+
+  #middle-left {
+    -webkit-transform-origin: 23px -9px;
+    transform-origin: 23px -9px;
+  }
+
+  #back-left {
+    -webkit-transform-origin: -20px 0px;
+    transform-origin: -20px 0px;
+  }
 }
 
 @media only screen and (min-width: 80em) {
@@ -894,41 +898,44 @@ text-align: center;
     -webkit-transform: translateY(-105px);
     transform: translateY(-105px);
   }
+
   .footer-logo {
   width: 30%;
-}
+  }
+
   .footer-logo {
   width: 12%;
-}
-#octopus {
-  width: 1100px;
-}
+  }
+  
+  #octopus {
+    width: 1100px;
+  }
 
-#front-right {
-  -webkit-transform-origin: 20px 53px;
-  transform-origin: 20px 53px;
-}
+  #front-right {
+    -webkit-transform-origin: 20px 53px;
+    transform-origin: 20px 53px;
+  }
 
-#middle-right {
-  -webkit-transform-origin: 0px 20px;
-  transform-origin: 0px 20px;
-}
-#back-right {
-  -webkit-transform-origin: -1px 20px;
-  transform-origin: -1px 20px;
-}
-#front-left {
-  -webkit-transform-origin: -14px -19px;
-  transform-origin: -14px -19px;
-}
-#middle-left {
-  -webkit-transform-origin: 23px -9px;
-  transform-origin: 23px -9px;
-}
-#back-left {
-  -webkit-transform-origin: -20px 0px;
-  transform-origin: -20px 0px;
-}
+  #middle-right {
+    -webkit-transform-origin: 0px 20px;
+    transform-origin: 0px 20px;
+  }
+  #back-right {
+    -webkit-transform-origin: -1px 20px;
+    transform-origin: -1px 20px;
+  }
+  #front-left {
+    -webkit-transform-origin: -14px -19px;
+    transform-origin: -14px -19px;
+  }
+  #middle-left {
+    -webkit-transform-origin: 23px -9px;
+    transform-origin: 23px -9px;
+  }
+  #back-left {
+    -webkit-transform-origin: -20px 0px;
+    transform-origin: -20px 0px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -943,7 +950,7 @@ text-align: center;
   }
 
   .anchor-prop {
-    bottom: 1800px;
+    bottom: 1950px;
     width: 60%;
   }
 
