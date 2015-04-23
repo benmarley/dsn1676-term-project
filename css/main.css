@@ -163,7 +163,7 @@ button:focus {
 }
 
 .x-button {
-  height: 8em;
+  height: 4em;
   width: 5em;
   position: absolute;
   right: 82%;
@@ -187,15 +187,25 @@ button:focus {
 
 .navigation-open {
   opacity:1;
-  height: 8em;
+  height: 12em;
   -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
 }
 
 .nav-none {
   display:none;
+  height: 12em;
   -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
+}
+
+.list-item {
+  margin-top: 2em;
+}
+
+.list-item a {
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 nav li {
